@@ -9,6 +9,7 @@
 		<p id="description">Let us know how we can improve freeCodeCamp</p>
 	</div>
 	<form id="survey-form">
+		<!-- Name Block -->
 		<div id="rowTable">
 			<div id="labels">
 				<label id="name-label">* Name: </label>
@@ -18,6 +19,7 @@
 			</div>
 		</div>
 
+		<!-- Email Block -->
 		<div id="rowTable">
 			<div id="labels">
 				<label id="email-label">* Email: </label>
@@ -27,6 +29,7 @@
 			</div>
 		</div>
 
+		<!-- Age Block -->
 		<div id="rowTable">
 			<div id="labels">
 				<label id="number-label">* Age: </label>
@@ -36,13 +39,14 @@
 			</div>
 		</div>
 
+		<!-- Curent Role drop down list Block -->
 		<div id="rowTable">
 			<div id="labels">
 				<label id="">Which option best describes your current role? </label>
 			</div>
 			<div id="inputTable">
-				<select name="currentRole" id="dropdown">
-					<option disabled>Select an option</option>
+				<select name="currentRole" id="dropdown" class="dropdown">
+					<option disabled selected value>Select an option</option>
 					<option value="student">Student</option>
 					<option value="job">Full Time Job</option>
 					<option value="learner">Full Time Learner</option>
@@ -52,6 +56,7 @@
 			</div>
 		</div>
 
+		<!-- User Rading Block -->
 		<div id="rowTable">
 			<div id="labels">
 				<label for="userRating">* How likely is that you would recommend freeCodeCamp to a friend?</label>
@@ -77,9 +82,25 @@
 			</div>
 		</div>
 
+		<!-- Most Like drop down list Block -->
 		<div id="rowTable">
 			<div id="labels">
-				<label id=""></label>
+				<label id="labels">What do you like most in FCC:</label>
+			</div>
+			<div id="inputTable">
+				<select name="mostLike" id="most-like" class="dropdown">
+					<option disabled selected value>Select an option</option>
+					<option value="challenges">Challenges</option>
+					<option value="projects">Projects</option>
+					<option value="community">Community</option>
+					<option value="open-source">Open Source</option>
+				</select>
+			</div>
+		</div>
+
+		<div id="rowTable">
+			<div id="labels">
+				<label id="labels"></label>
 			</div>
 			<div id="inputTable">
 				
