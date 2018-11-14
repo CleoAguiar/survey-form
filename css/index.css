@@ -28,15 +28,26 @@ body {
 }
 
 #labels {
-	margin-right: 50%;
+	margin-right: 51%;
 	text-align: right;
 }
 
 #inputTable {
-	margin-left: 50%;
+	margin-left: 51%;
 }
 
 #submit {
 	display: block;
 	margin: auto;
+}
+
+ul {
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}
+
+textarea {
+	height: 50px; 
+	resize: vertical;
 }
