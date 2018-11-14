@@ -44,9 +44,26 @@ body {
 	padding: 5px;
 }
 
+.button {
+	-webkit-transition-duration: 0.4s; /*Safari*/
+	transition-duration: 0.4s;
+}
+
 #submit {
 	display: block;
 	margin: auto;
+	background-color: white;
+	color: #578e59;
+	font-size: 20px;
+	width: 100%;
+	padding: 10px 24px;
+	border-radius: 5px;
+	border: solid;
+}
+
+#submit:hover {
+	background-color: #578e59;
+	color: white;
 }
 
 ul {
