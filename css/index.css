@@ -3,6 +3,11 @@ body {
 	background: #006306;
 }
 
+#title {
+	text-align: center;
+	color: white;
+}
+
 #formBackground {
 	display: block;
 	background: white;
@@ -12,7 +17,26 @@ body {
 	border-radius: 10px;
 }
 
-#title {
+#description {
 	text-align: center;
-	color: white;
+	font-size: 18px;
+}
+
+#survey-form {
+	display: block;
+	margin: 20px 50px;
+}
+
+#labels {
+	margin-right: 50%;
+	text-align: right;
+}
+
+#inputTable {
+	margin-left: 50%;
+}
+
+#submit {
+	display: block;
+	margin: auto;
 }
