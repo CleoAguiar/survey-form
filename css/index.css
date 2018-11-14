@@ -1,0 +1,18 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background: #006306;
+}
+
+#formBackground {
+	display: block;
+	background: white;
+	margin: 10px auto;
+	padding: 30px;
+	border: 0px solid;
+	border-radius: 10px;
+}
+
+#title {
+	text-align: center;
+	color: white;
+}
