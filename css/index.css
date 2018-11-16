@@ -24,23 +24,22 @@ body {
 
 #survey-form {
 	display: block;
-	margin: 20px 50px;
+	grid-template-columns: auto;
+	margin: auto;
 }
 
-#rowTable {
-	margin: 10px 40px 10px;
+.rowTable {
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 
-#labels {
-	display: inline-block;
+.labels {
 	text-align: right;
 	vertical-align: top;
-	padding: 5px;
-	width: 50%;
 }
 
-#inputTable {
-	display: inline-block;
+.inputTable {
+	text-align: left;
 	padding: 5px;
 }
 
