@@ -24,8 +24,8 @@ body {
 
 #survey-form {
 	display: block;
-	grid-template-columns: auto;
-	margin: auto;
+/*	grid-template-columns: auto;
+	margin: auto;*/
 }
 
 .rowTable {
@@ -35,12 +35,19 @@ body {
 
 .labels {
 	text-align: right;
-	vertical-align: top;
+	vertical-align: center;
 }
 
 .inputTable {
 	text-align: left;
+	vertical-align: center;
 	padding: 5px;
+}
+
+.input-field {
+ 	height: 20px;
+ 	width: 80%;
+   	padding: 5px;
 }
 
 .button {
@@ -74,4 +81,29 @@ ul {
 textarea {
 	height: 50px; 
 	resize: vertical;
+}
+
+@media only screen and (max-device-width: 768px) {
+	#title {
+		font-size: 64px;
+	}
+
+	#description {
+		font-size: 48px;
+	}
+
+	.rowTable {
+		display: block;
+	}
+
+	.labels {
+		font-size: 48px;
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	.input-field {
+	 	height: 48px;
+	 	width: 90%;
+ 	}
 }
