@@ -11,10 +11,10 @@ body {
 #formBackground {
 	display: block;
 	background: white;
-	margin: 10px auto;
-	padding: 30px;
+	margin: 10px 20px;
 	border: 0px solid;
 	border-radius: 10px;
+	padding: 30px;
 }
 
 #description {
@@ -24,8 +24,6 @@ body {
 
 #survey-form {
 	display: block;
-/*	grid-template-columns: auto;
-	margin: auto;*/
 }
 
 .rowTable {
@@ -33,21 +31,22 @@ body {
 	grid-template-columns: 50% 50%;
 }
 
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
 .labels {
 	text-align: right;
 	vertical-align: center;
 }
 
-.inputTable {
-	text-align: left;
-	vertical-align: center;
-	padding: 5px;
-}
-
-.input-field {
- 	height: 20px;
- 	width: 80%;
-   	padding: 5px;
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 11px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
 }
 
 .button {
@@ -92,6 +91,15 @@ textarea {
 		font-size: 48px;
 	}
 
+	#formBackground {
+		padding-right: auto;
+		padding-left: auto;
+	}
+
+	#survey-form {
+		background-color: pink;
+	}
+
 	.rowTable {
 		display: block;
 	}
@@ -102,8 +110,8 @@ textarea {
 		padding-top: 20px;
 	}
 
-	.input-field {
-	 	height: 48px;
-	 	width: 90%;
+	input[type=text], select, textarea {
+	 /*	width: 100%;
+	 	padding: 12px;*/
  	}
 }
