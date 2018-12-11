@@ -112,5 +112,6 @@ textarea {
 
 	input[type=text], input[type=number], input[type=email], select, textarea {
 		padding: 24px;
+		font-size: 36px;
 	}
 }
