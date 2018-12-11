@@ -113,5 +113,16 @@ textarea {
 	input[type=text], input[type=number], input[type=email], select, textarea {
 		padding: 24px;
 		font-size: 36px;
+		width: 810px;
+	}
+
+	#submit {
+		font-size: 36px;
+		padding: 20px 48px;
+	}
+
+	textarea {
+		height: 240px; 
+		resize: vertical;
 	}
 }
