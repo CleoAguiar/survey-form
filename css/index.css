@@ -116,13 +116,18 @@ textarea {
 		width: 810px;
 	}
 
-	#submit {
-		font-size: 36px;
-		padding: 20px 48px;
+	input[type=checkbox], input[type=radio] {
+		transform: scale(2.0);
+		margin-right: 10px;
 	}
 
 	textarea {
 		height: 240px; 
 		resize: vertical;
+	}
+
+	#submit {
+		font-size: 36px;
+		padding: 20px 48px;
 	}
 }
